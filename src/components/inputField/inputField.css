@@ -1,0 +1,33 @@
+.inputField--form{
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 9px 7px;
+    /* gap: 5px; */
+}
+
+.inputField--form input{
+    /* max-width: 360px; */
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+
+/* form input:focus{
+    box-shadow:0 0 10px 1000px rgba(0, 0, 0, 0.409);
+    outline: none;
+} */
+
+form button {
+    border-radius: 50%;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+}
